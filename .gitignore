@@ -7,6 +7,7 @@ dist
 build
 _build
 .cache
+*.so
 
 # Installer logs
 pip-log.txt
@@ -15,9 +16,22 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
+.pytest_cache
 
 .DS_Store
 .idea/*
+.python-version
 
 /test.py
-/test_*.py
+/test_*.*
+/benchmark/*
+benchmark.py
+results.json
+profile.html
+/wheelhouse
+/docs/site/*
+pyproject.lock
+
+# editor
+
+.vscode
